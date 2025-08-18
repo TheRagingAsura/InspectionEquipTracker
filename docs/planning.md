@@ -35,7 +35,8 @@
 | In Use                  | BOOLEAN      | boolean, linked to current holder, required |
 | Current Holder          | VARCHAR(50)  | linked to date signed out                   |
 | Date Signed Out         | DATE         | linked to current holder                    |
-| Location                | VARCHAR(75)  | required                                    |
+| Storage Location        | VARCHAR(75)  | required                                    |
+| Current                 | VARCHAR(75)  | required                                    |
 | Price                   | int          | required                                    |
 | Accuracy                | int          | required                                    |
 | Condition               | int          | required                                    |

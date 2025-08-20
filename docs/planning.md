@@ -43,3 +43,4 @@
 | Results of Verification | int          | required                                    |
 | Calibration Frequency   | int          | required                                    |
 
+| Description   | varchar(500)        | optional |

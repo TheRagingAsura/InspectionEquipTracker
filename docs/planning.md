@@ -1,12 +1,18 @@
 # ️ Features / TODO
 - [ ] Define Tables/Needs Per AS9100/ISO9001
-- [ ] 
 - [ ] Basic login system
 - [ ] Connect to SQL database
 - [ ] Build dashboard screen
 - [ ] Implement profile editing
 - [ ] Add order tracking
 - [ ] Add inspection tool tracking
+- [ ] Materials
+- [ ] Users
+- [ ] Customers
+- [ ] Suppliers
+- [ ] Operations
+- [ ] Parts
+- [ ] Machines
 
 
 # SQL Tables
@@ -63,6 +69,33 @@
 | Current Location | VARCHAR(75)  | required                                    |
 | Condition Label  | VARCHAR(25)  | required                                    |
 | Condition Int    | INT(3)       | required                                    |
+
+
+## Material tables
+
+### `Material Description`
+| Field            | Type         | Notes                                       |
+|------------------|--------------|---------------------------------------------|
+| id               | INT (PK)     | Auto-increment primary key                  |
+
+
+
+
+## Part Tables
+
+
+
+## Operations Tables
+
+
+## Machine Tables
+
+
+
+## Supplier Tables
+
+
+## Customer Tables
 
 
 

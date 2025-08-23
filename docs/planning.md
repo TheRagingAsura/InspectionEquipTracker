@@ -79,23 +79,62 @@
 | id               | INT (PK)     | Auto-increment primary key                  |
 
 
+### Manufactured Parts
+| Field            | Type         | Notes                                       |
+|------------------|--------------|---------------------------------------------|
+| id               | INT (PK)     | Auto-increment primary key                  |
 
 
-## Part Tables
+### Ordered Parts
+| Field            | Type         | Notes                                       |
+|------------------|--------------|---------------------------------------------|
+| id               | INT (PK)     | Auto-increment primary key                  |
 
 
+## Documents 
 
-## Operations Tables
+### `Bill of materials`
+| Field            | Type         | Notes                                       |
+|------------------|--------------|---------------------------------------------|
+| id               | INT (PK)     | Auto-increment primary key                  |
+
+### `Specs`
+| Field            | Type         | Notes                                       |
+|------------------|--------------|---------------------------------------------|
+| id               | INT (PK)     | Auto-increment primary key                  |
+
+### `Purchase Order`
+| Field            | Type         | Notes                                       |
+|------------------|--------------|---------------------------------------------|
+| id               | INT (PK)     | Auto-increment primary key                  |
 
 
-## Machine Tables
+## Processes 
+
+### Operations Tables
+| Field            | Type         | Notes                                       |
+|------------------|--------------|---------------------------------------------|
+| id               | INT (PK)     | Auto-increment primary key                  |
 
 
+### Machine Tables
+| Field            | Type         | Notes                                       |
+|------------------|--------------|---------------------------------------------|
+| id               | INT (PK)     | Auto-increment primary key                  |
 
-## Supplier Tables
+
+## External Location
+
+### Supplier Tables
+| Field            | Type         | Notes                                       |
+|------------------|--------------|---------------------------------------------|
+| id               | INT (PK)     | Auto-increment primary key                  |
 
 
-## Customer Tables
+### Customer Tables
+| Field            | Type         | Notes                                       |
+|------------------|--------------|---------------------------------------------|
+| id               | INT (PK)     | Auto-increment primary key                  |
 
-
+### Shipping
 
